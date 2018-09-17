@@ -1,8 +1,9 @@
-## Welcome to GitHub Pages
+## Data mining and machine learning course for physics MSc students
 
-You can use the [editor on GitHub](https://github.com/riblidezso/physdm/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Lab assignments:
+
+1. [00 Unsupervised lerning and clustering ](lab/00_unsup_clust.md)
 
 ### Markdown
 
