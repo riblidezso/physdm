@@ -2,10 +2,14 @@
 
 ### Lecture slides:
 
-1. [00 Unsupervised learning and clustering ](http://dkrib.web.elte.hu/datamining/slides/01_unsup_clust.pdf)
+0. [00 Requirements ](http://dkrib.web.elte.hu/datamining/slides/00_intro.pdf)
+
+1. [01 Unsupervised learning and clustering ](http://dkrib.web.elte.hu/datamining/slides/01_unsup_clust.pdf)
+
 2.
 
 ### Lab assignments:
 
-1. [00 Unsupervised learning and clustering ](lab/00_unsup_clust.md)
+1. [01 Unsupervised learning and clustering ](lab/00_unsup_clust.md)
+
 2.
