@@ -1,4 +1,4 @@
-# Lab excercise 1/1. Unsupervised learning / clustering.
+# Lab excercise 01, Unsupervised learning and clustering
 
 
 ---
@@ -38,8 +38,10 @@
 * Use the pandas package for data loading and handling
 * Use the scikit learn package for PCA,T-SNE, K-Means
 * Use the seaborn package for hierarchical clustering
-* You need to understand why some columns are full of missing data, and remove these column. You also need to remove 1 single row in the data which has other missing values too.
+* You need to understand why some columns are full of missing data, and remove these columns. You also need to remove 1 single row in the data which has other missing values too.
+* Only perform PCA on body measurement data, not the following columns: ('ID','Origin','Sex','Hurricane')!
 * Normalize data before peforming the PCA ( columns should have 0 mean, and variance = 1)
+
 
 
 
