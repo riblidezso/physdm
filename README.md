@@ -1,38 +1,11 @@
 ## Data mining and machine learning course for physics MSc students
 
+### Lecture slides:
+
+1. [00 Unsupervised learning and clustering ](http://dkrib.web.elte.hu/datamining/slides/01_unsup_clust.pdf)
+2.
 
 ### Lab assignments:
 
-1. [00 Unsupervised lerning and clustering ](lab/00_unsup_clust.md)
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/riblidezso/physdm/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1. [00 Unsupervised learning and clustering ](lab/00_unsup_clust.md)
+2.
