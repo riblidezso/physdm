@@ -28,3 +28,18 @@
 5, Hierarchical clustering
 * A, Perform hierarchical clustering on meaningful lizard body measurement data. Show the results on a dendrogram.
 * B, Interpret the dendrogram using the descriptive labels ('Origin', 'Sex', 'Hurricane').
+
+
+
+---
+
+### Hints:
+
+* Use the pandas package for data loading and handling
+* Use the scikit learn package for PCA,T-SNE, K-Means
+* Use the seaborn package for hierarchical clustering
+* You need to understand why some columns are full of missing data, and remove these column. You also need to remove 1 single row in the data which has other missing values too.
+* Normalize data before peforming the PCA ( columns should have 0 mean, and variance = 1)
+
+
+
