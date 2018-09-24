@@ -6,7 +6,7 @@
 
 - [01 Unsupervised learning and clustering ](http://dkrib.web.elte.hu/datamining/slides/01_unsup_clust.pdf)
 
-- [02 Overview of supervised learning ](http://dkrib.web.elte.hu/datamining/slides/02_sup.pdf)
+- [02 Overview of supervised learning ](http://dkrib.web.elte.hu/datamining/slides/02_supervised.pdf)
 
 ### Lab assignments 
 
