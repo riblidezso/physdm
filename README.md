@@ -8,11 +8,15 @@
 
 - [02 Overview of supervised learning ](http://dkrib.web.elte.hu/datamining/slides/02_supervised.pdf)
 
+- [03 Linear regression ](http://dkrib.web.elte.hu/datamining/slides/03_linreg.pdf)
+
 ### Lab assignments 
 
 - [01 Unsupervised learning and clustering ](lab/00_unsup_clust.md)
 
 - [02 Overview of supervised learning ](lab/02_sup.md)
+
+- [03 Linear regression ](lab/03_linreg.md)
 
 
 
