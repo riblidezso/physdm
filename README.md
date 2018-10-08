@@ -20,6 +20,8 @@
 
 - [03 Linear regression ](lab/03_linreg.md)
 
+- [03 Linear methods in classification](lab/04_lincls.md)
+
 
 
 [Formal requirements for assigments.](lab/assignments.md) 
