@@ -10,6 +10,8 @@
 
 - [03 Linear regression ](http://dkrib.web.elte.hu/datamining/slides/03_linreg.pdf)
 
+- [04 Linear methods for classification ](http://dkrib.web.elte.hu/datamining/slides/03_lincls.pdf)
+
 ### Lab assignments 
 
 - [01 Unsupervised learning and clustering ](lab/00_unsup_clust.md)
