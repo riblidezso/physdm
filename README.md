@@ -20,7 +20,7 @@
 
 - [03 Linear regression ](lab/03_linreg.md)
 
-- [03 Linear methods in classification](lab/04_lincls.md)
+- [04 Linear methods in classification](lab/04_lincls.md)
 
 
 
