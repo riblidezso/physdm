@@ -10,7 +10,7 @@
 
 - [03 Linear regression ](http://dkrib.web.elte.hu/datamining/slides/03_linreg.pdf)
 
-- [04 Linear methods for classification ](http://dkrib.web.elte.hu/datamining/slides/03_lincls.pdf)
+- [04 Linear methods for classification ](http://dkrib.web.elte.hu/datamining/slides/04_lincls.pdf)
 
 ### Lab assignments 
 
