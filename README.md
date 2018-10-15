@@ -12,6 +12,8 @@
 
 - [04 Linear methods for classification ](http://dkrib.web.elte.hu/datamining/slides/04_lincls.pdf)
 
+- [05 Model selection and regularization ](http://dkrib.web.elte.hu/datamining/slides/05_reg.pdf)
+
 ### Lab assignments 
 
 - [01 Unsupervised learning and clustering ](lab/00_unsup_clust.md)
@@ -21,6 +23,8 @@
 - [03 Linear regression ](lab/03_linreg.md)
 
 - [04 Linear methods in classification](lab/04_lincls.md)
+
+- [04 Model selection and regularization](lab/05_subreg.md)
 
 
 
