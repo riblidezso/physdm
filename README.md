@@ -24,7 +24,7 @@
 
 - [04 Linear methods in classification](lab/04_lincls.md)
 
-- [05 Model selection and regularization](lab/05_subreg.md)
+- [05 Model selection and regularization](lab/05_subreg.md), [data file](http://dkrib.web.elte.hu/datamining/small_met.csv)
 
 
 
