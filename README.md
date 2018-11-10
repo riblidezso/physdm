@@ -28,7 +28,7 @@
 
 - [05 Model selection and regularization](lab/05_subreg.md), [data file](http://dkrib.web.elte.hu/datamining/small_met.csv)
 
-- [06 SVM ](lab/06_svm.md), [data file](http://dkrib.web.elte.hu/datamining/titanic.csv)
+- [06 SVM ](lab/06_svm.md)
 
 [Formal requirements for assigments.](lab/assignments.md) 
 
