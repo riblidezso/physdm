@@ -14,6 +14,8 @@
 
 - [05 Model selection and regularization ](http://dkrib.web.elte.hu/datamining/slides/05_reg.pdf)
 
+- [06 SVM ](http://dkrib.web.elte.hu/datamining/slides/06_svm.pdf)
+
 ### Lab assignments 
 
 - [01 Unsupervised learning and clustering ](lab/00_unsup_clust.md)
@@ -26,7 +28,7 @@
 
 - [05 Model selection and regularization](lab/05_subreg.md), [data file](http://dkrib.web.elte.hu/datamining/small_met.csv)
 
-
+- [06 SVM ](lab/06_svm.md), [data file](http://dkrib.web.elte.hu/datamining/titanic.csv)
 
 [Formal requirements for assigments.](lab/assignments.md) 
 
