@@ -16,6 +16,10 @@
 
 - [06 SVM ](http://dkrib.web.elte.hu/datamining/slides/06_svm.pdf)
 
+- [07 Decision trees ](http://dkrib.web.elte.hu/datamining/slides/07_dectree.pdf)
+
+- [08 Neural networks ](http://dkrib.web.elte.hu/datamining/slides/08_neural.pdf)
+
 ### Lab assignments 
 
 - [01 Unsupervised learning and clustering ](lab/00_unsup_clust.md)
@@ -29,6 +33,10 @@
 - [05 Model selection and regularization](lab/05_subreg.md), [data file](http://dkrib.web.elte.hu/datamining/small_met.csv)
 
 - [06 SVM ](lab/06_svm.md)
+
+- [07 Decision trees ](lab/07_dectree.md)
+
+- [08 Neural networks ](lab/08_neural.md)
 
 [Formal requirements for assigments.](lab/assignments.md) 
 
