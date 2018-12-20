@@ -20,6 +20,10 @@
 
 - [08 Neural networks ](http://dkrib.web.elte.hu/datamining/slides/08_neural.pdf)
 
+- [09 Convolutional neural networks](http://patbaa.web.elte.hu/datamining/slides/09_cnn.pdf)
+
+- [10 Natural language processing](http://patbaa.web.elte.hu/datamining/slides/10_nlp.pdf)
+
 ### Lab assignments 
 
 - [01 Unsupervised learning and clustering ](lab/00_unsup_clust.md)
@@ -37,6 +41,10 @@
 - [07 Decision trees ](lab/07_dectree.md)
 
 - [08 Neural networks ](lab/08_neural.md)
+
+- [09 Convolutional neural networks](lab/09_cnn.md)
+
+- [10 Natural language processing](lab/10_nlp.md)
 
 [Formal requirements for assigments.](lab/assignments.md) 
 
