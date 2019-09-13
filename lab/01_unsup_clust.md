@@ -6,7 +6,7 @@
 
 
 1, Get and prepare data
-* A, Download the data from the kaggle challenge *"Titanic: Machine Learning from Disaster"*.  https://www.kaggle.com/c/titanic
+* A, Download the data from the kaggle challenge *"Titanic: Machine Learning from Disaster"*.  https://www.kaggle.com/c/titanic You need to register to Kaggle to do so.
 * B, Load the train.csv table with pandas
 * C, Drop columns with the following data : names, ids, and ticket ids
 * D, Encode the place or embarkation with 3 new binary columns, drop the original text column
@@ -20,7 +20,6 @@
 * B, Plot each person a filled circle marker in the two dimensional space and colour each circle according to the continuous value of the age of the passenger
 * C, Plot each person a filled circle marker in the two dimensional space and colour each circle according to the continuous value of the price of their ticket
 * D, Describe the results you got, why are these variables important for TSNE?
-
 
 3. TSNE with normalization.
 * A, Normalize each column of your data frame to have 0 mean, and unit variance, and repeat exercise 2.
