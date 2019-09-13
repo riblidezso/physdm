@@ -21,7 +21,7 @@
 * C, Plot each person a filled circle marker in the two dimensional space and colour each circle according to the continuous value of the price of their ticket
 * D, Describe the results you got, why are these variables important for TSNE?
 
-3. TSNE with normalization.
+3, TSNE with normalization.
 * A, Normalize each column of your data frame to have 0 mean, and unit variance, and repeat exercise 2.
 * B, For each categorical attribute, create a plot where the points are colored according to the class they belong to, also use different marker for each class on the plots.
 * C, Try to guess what is the meaning of the distinct clusters? You don't need to understand every single cluster, but pick a few, and investigate them.
