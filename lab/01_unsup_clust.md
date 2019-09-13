@@ -6,7 +6,7 @@
 
 
 1, Get and prepare data
-* A, Download the data from the kaggle challege *"Titanic: Machine Learning from Disaster"*.  https://www.kaggle.com/c/titanic
+* A, Download the data from the kaggle challenge *"Titanic: Machine Learning from Disaster"*.  https://www.kaggle.com/c/titanic
 * B, Load the train.csv table with pandas
 * C, Drop columns with the following data : names, ids, and ticket ids
 * D, Encode the place or embarkation with 3 new binary columns, drop the original text column
@@ -29,9 +29,9 @@
 
 4, More dimension reduction. Embed your data to 2 dimensions, and plot the data points (no need for colours etc), using
 * A, UMAP (Uniform Manifold Approximation and Projection) ( you will need to install it using `pip install --user umap-learn`
-* B, PCA (Pricipal Component Analysis), use the first two components
-* C, NNMF (Non-Negatvie Matrix Factorization, ofter called NMF)
-* D, MDS (Multi dimensional scaling)   
+* B, PCA (Principal Component Analysis), use the first two components
+* C, NNMF (Non-Negative Matrix Factorization, ofter called NMF)
+* D, MDS (Multidimensional scaling)   
 All the tools are available in scikit-learn expect for UMAP.
 
 
@@ -46,7 +46,7 @@ All the tools are available in scikit-learn expect for UMAP.
 * Use the pandas package for data loading and handling
 * Use matplotlib for plotting or bokeh and plotly for interactive investigation
 * Use the scikit learn package for almost everything
-* Remeber, you need to install UMAP!
+* Remember, you need to install UMAP!
 
 
 
