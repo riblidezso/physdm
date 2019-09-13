@@ -6,8 +6,7 @@
 
 
 1, Get and prepare data
-* A, Download the data from the kaggle challege *"Titanic: Machine Learning from Disaster"*.
-* https://www.kaggle.com/c/titanic
+* A, Download the data from the kaggle challege *"Titanic: Machine Learning from Disaster"*.  https://www.kaggle.com/c/titanic
 * B, Load the train.csv table with pandas
 * C, Drop columns with the following data : names, ids, and ticket ids
 * D, Encode the place or embarkation with 3 new binary columns, drop the original text column
@@ -18,8 +17,8 @@
 
 2, TSNE embedding
 * A, Embed your dataframe withour any normalization into 2 dimensions using TSNE (use the scikit-learn implementation)
-* B, Plot each person a filled circle marker in the two dimensional space ans colour each circle according to the continuous value of the age of the passenger
-* C, Plot each person a filled circle marker in the two dimensional space ans colour each circle according to the continuous value of the price of their ticket
+* B, Plot each person a filled circle marker in the two dimensional space and colour each circle according to the continuous value of the age of the passenger
+* C, Plot each person a filled circle marker in the two dimensional space and colour each circle according to the continuous value of the price of their ticket
 * D, Describe the results you got, why are these variables important for TSNE?
 
 
