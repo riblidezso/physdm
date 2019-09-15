@@ -4,7 +4,7 @@
 
 - [00 Requirements ](http://dkrib.web.elte.hu/datamining/slides/00_intro.pdf)
 
-- [01 Unsupervised learning and clustering ]()
+- [01 Unsupervised learning and clustering ](http://dkrib.web.elte.hu/datamining/slides/01_unsup_clust.pdf)
 
 - [02 Overview of supervised learning ]()
 
