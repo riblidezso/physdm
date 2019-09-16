@@ -25,6 +25,7 @@
 * A, Normalize each column of your data frame to have 0 mean, and unit variance, and repeat exercise 2.
 * B, For each categorical attribute, create a plot where the points are colored according to the class they belong to, also use different marker for each class on the plots.
 * C, Try to guess what is the meaning of the distinct clusters? You don't need to understand every single cluster, but pick a few, and investigate them.
+* D, Attempt to use K-means on your embedded 2d points to cluster them into meaningful clusters. Note, you need to somewhat correctly guess the number of clusters a priori.
 
 4, More dimension reduction. Embed your data to 2 dimensions, and plot the data points (no need for colours etc), using
 * A, UMAP (Uniform Manifold Approximation and Projection) ( you will need to install it using `pip install --user umap-learn`
