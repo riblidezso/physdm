@@ -46,8 +46,15 @@
 
 - [10 Natural language processing](lab/10_nlp.md)
 
+---
+
 [Formal requirements for assigments.](lab/assignments.md) 
 
+---
+
+### Example notebooks, old assignment solutions
+
+- [01 Unsupervised learning and clustering ](examples/01_unsup_cluster/01_unsup_cluster_2018_example_solution.ipynb)
 
 ---
 
