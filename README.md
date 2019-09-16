@@ -26,7 +26,7 @@
 
 ### Lab assignments 
 
-- [01 Unsupervised learning and clustering ]()
+- [01 Unsupervised learning and clustering ](lab/01_unsup_clust.md)
 
 - [02 Overview of supervised learning ]()
 
