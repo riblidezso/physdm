@@ -28,7 +28,7 @@
 
 - [01 Unsupervised learning and clustering ](lab/01_unsup_clust.md)
 
-- [02 Overview of supervised learning ]()
+- [02 Overview of supervised learning ](lab/02_sup.md)
 
 - [03 Linear regression ]()
 
@@ -55,6 +55,7 @@
 ### Example notebooks, old assignment solutions
 
 - [01 Unsupervised learning and clustering ](https://nbviewer.jupyter.org/github/riblidezso/physdm/blob/master/examples/01_unsup_cluster/01_unsup_cluster_2018_example_solution.ipynb)
+- [02 Overview of supervised learning ](https://nbviewer.jupyter.org/github/riblidezso/physdm/blob/master/examples/02_sup/02_sup_photoz_2018_example_solution.ipynb)
 
 ---
 
