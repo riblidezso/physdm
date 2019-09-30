@@ -8,7 +8,7 @@
 
 - [02 Overview of supervised learning ](http://patbaa.web.elte.hu/datamining/slides/02_supervised.pdf)
 
-- [03 Linear regression ]()
+- [03 Linear regression ](http://dkrib.web.elte.hu/datamining/slides/03_linreg.pdf)
 
 - [04 Linear methods for classification ]()
 
