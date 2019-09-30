@@ -56,6 +56,7 @@
 
 - [01 Unsupervised learning and clustering ](https://github.com/riblidezso/physdm/blob/master/examples/01_unsup_cluster/solution_assignment1.py)
 
+ - [02 Overview of supervised learning ](https://nbviewer.jupyter.org/github/riblidezso/physdm/blob/master/examples/02_sup/solution_hw2.ipynb)
 ---
 
 ### Worked out example notebooks, old assignment solutions
