@@ -1,58 +1,61 @@
-# 03. Lab exercises, Linear regression
-
-----
-
-1. Implement linear regression using SVD. (use np.linalg.svd). Write a class for linear regression, using the following template:
-
-
-    ```
-    class LinReg():
-    """Linear regression class."""
-    
-    def __init__(self):
-        """Intialize linear regression."""
-        self.coefficients = None
-    
-    def fit(self,x_train, y_train):
-        """Fit linear regression."""
-        return self
-    
-    def predict(self,x_test):
-        """Predict with linear regression."""
-        return y_test
-    ```
-    
-    
-2. Application:
-- A, Apply the linear regressor on photometric redshift estimation using the provided photoz_mini.csv file. Use a 80-20% train test split. Calculate the mean squared error (MSE) of predicctions and plot the true and the predicted values on a scatterplot for both the training and the test set. 
-- B, Repeat 2/A using the linear regression class of scikit-learn.
-- C, Compare the coefficients of the two implementations.
-- D, Use 5 fold cross validation using your linear regression class. Estimate the mean and standard deviation of the MSE of the predictions. 
-- E, Compare the result of 2/D to the result of KNN regression.
-
-
-
-
-3. Statsmodels
-- A Fit linear regression with statsmodels package on the whole dataset. Assess the significance of each color.
-- B Iteratvely omit the least significant colors. Compare the $R^2$ of the 5 fits.
-- C Validate each 5 combinations of colors using cross validation with 5 folds using your linear regression class. How does the MSE change after omitting the colors? Which is best combination of input colors?
-- D, Repeat execise C using a KNN regressor, do you see similar behaviour?
-
-
-4. Inspection 
-- A, Select the best combination of input colors found in 3/C, fit the whole dataset, and inspect the residuals of the fit on a residual plot, is there a clear trend? 
-- B, Inspect the residuals of the fit on a residual plot, identify and color outliers ( where residuals are larger than 3 $
-\sigma$ ) .
-- C, Identify high levarage data points.
-
-
-5. Interactions, quadratic terms
-
-- A, Select the best combination of inputs found in 3/C and add interaction between the colors and inspect it's siginifcance using the whole dataset.
-- B, Validate the added interaction using cross validation on 5 folds using your linear regression class or the scikit-learn linear regression class. How does the MSE change after adding interactions?
-- C, Add quadratic form of the colors as predictive variables. Asses the significance of the quadratic terms. Which quadratic term is significant?
-- D, Create the final model by adding the siginificant quadratic term, interactions and  the best input colors. Validate this model using cross validation with 5 folds using your linear regression class. Inspect the final MSE, and compare it to the original model with all colors, the one with the best colors, and the one with interactions. Which is the best?
+# Lab exercise 03, Linear regression
 
 ---
 
+
+1, Download the wine rating data from dkrib.web.elte.hu/datamining/wine.csv.gz
+* A, Drop the unnamed id column, the winery, the tasters name and twitter handle, the title, and the region_1/2
+* B, Encode the character length of the description as a vaiable, and drop the original text column
+* C, Encode whether the designation is missing or not a one-hot encoded variable, and drop the original column
+* D, Encode the most common 20 varieties with one hot encoding, remove the original text column.
+* E, Encode the most common 20 country values with one hot encoding, remove the original text column.
+* F, Encode the most common 20 province values with one hot encoding, remove the original text column.
+* G, Impute missing prices with the mean of the prices.
+
+
+2, Fit a linear regression to estimate the points given to a wine. Use the full dataset for fitting.
+* A, Use statsmodels to do a linear regression, print the summary of the results.
+* B, Do the same, with scikit-learn, print the coefficients, and the intercept
+* C, Compare the results, are they the same?
+* D, Interpret the results,
+    are more expensive wines better?
+    do they write more about better wines?
+    do they like American wines?
+    is Rose any good?
+    
+    
+3, Fit a linear regression to estimate the price of a wine.
+* A, Interpret the results
+    Which countries produce the best value (when controlling for qualty)
+    Which country produces the most overpriced wines? (when controlling for qualty)
+    Could you guess the most overpiced province surprising?
+* B, Predit the prices of wines with your model, plot the true and the precited prices on a scatterplot.
+* C, Which wines are the most overpriced, and the best value according to your model. 
+    Think about it as an investment, so use the relative difference of the predicted the real price.
+    Print the original text description for 1-1
+* D, Which wines are so bad, that they should pay you to drink it? 
+    Print the details, and the original text description for the worst.
+* E, Which wines should be most expensive?
+    Print the details, and the original text description.
+    
+    
+
+4, Add a column which represents whether the wine comes from the top 20 countries (0) or it is a different country (1).
+* A, Fit a linear model using statsmodels, and one with scikit-learn predicting the points from the other columns.
+* B, Compare the coefficients, are they different? If yes which ones?
+* C, Try to find out what is the for the difference here?
+    
+
+    
+
+
+
+---
+
+### Hints:
+
+* Decorate your notebook with, questions, explanation etc, make it self contained and understandable!
+* Comment you code
+* Write functions for repetitive tasks!
+* Use the pandas package for data loading and handling
+* Use matplotlib for plotting or bokeh and plotly for interactive investigation
