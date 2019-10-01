@@ -30,7 +30,7 @@
 
 - [02 Overview of supervised learning ](lab/02_sup.md)
 
-- [03 Linear regression ]()
+- [03 Linear regression ](lab/03_linreg.md)
 
 - [04 Linear methods in classification]()
 
