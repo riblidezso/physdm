@@ -1,30 +1,34 @@
 ### Linear methods in classification
 
-1, Load data
-- (A), Download data from http://science.sciencemag.org/content/early/2018/01/17/science.aar3247
-- (B), Load protein levels, and convert them to numerical values if necessary
-- (C), Inspect missing values, and drop patients with missing values in protein levels
-- (D), Load cancer labels
-
-2, Logisic regression with Statsmodels
-- (A), Fit a logistic regression using statsmodels to cancer/normal binary labels using protein levels as inputs
-- (B), Evaluate the logloss and the accuracy of the fit.
-- (C), Evaluate the ROC, and AUC of the fit.
-
-3, Hepatocellular carcinoma 
-- (A), Fit a logistic regression using statsmodels to Hepatocellular carcinoma (liver cancer)/normal binary labels.
-- (B), Select the 4 most significant proteins and repeat the fit.
-- (C), Select the 1 most significant protein and repeat the fit.
-- (D), Compare the ROC, and AUC of the fits with 4 and 1 proteins. Which would you use when screening for cancers?
-- (E), Interpret the results using the wikipedia page of Hepatocellular carcinoma. 
-
-4, Cross validation
-- (A), Fit logistic regression using statsmodels to cancer/normal binary labels using protein levels as inputs using 5 fold cross-validation
-- (B), Calculate the mean and the std of AUC values for the 5 folds, and plot the 5 ROC curves on the same plot.
-
-5, Sklearn
-- (A), Fit a logistic regression using scikit-learn to cancer/normal binary labels using protein levels as inputs
-- (B), Compare the coefficient with the statsmodels output, are they the same? If not why not?
-- (C), Fit logistic regression using sklearn to cancer/normal binary labels using protein levels as inputs using 5 fold cross-validation, Calculate the mean and the std of AUC values for the 5 folds, and plot the 5 ROC curves on the same plot.
-- (D),  Fit linear discriminant analysis using sklearn to cancer/normal binary labels using protein levels as inputs using 5 fold cross-validation, Calculate the mean and the std of AUC values for the 5 folds, and plot the 5 ROC curves on the same plot. Is it better than logistic regression?
-- (E), Fit a logistic regression using scikit-learn to the multi class problem with a different class for each cancer type and one for normals. Evaluate predictions with the confusion matrix, interpret the result matrix.
+1. Load hurricane data from the article "Hurricane-induced selection on the morphology of an island lizard". (You may use ELTE wifi to access materials placed behind Nature's paywall.) https://www.nature.com/articles/s41586-018-0352-3
+    - A, Drop the lizard with the most missing values
+    - B, Drop the ID column
+    - C, Encode, the Sex, Origin ans Hurricane values into binary columns,
+    and drop the original text columns.
+    - D, Make sure all your columns are encoded as floating point values, 
+    not unsigned integers!
+----
+2. Use logistic regression from the statsmodels package to predict whether
+    the lizard was measured after of before the hurricane, 
+    using the whole dataset
+    - A, Investigate the Toe and Finger area coefficients, whats going on? 
+    Fix this problem by only keeping the mean measurements.
+    - B, Which measured quality had the most significant positive effect on survival?
+    - C, Which measured quality had the most significant negative effect on survival?
+    - D, Try explain the results in your words. Check the abstract of the paper.
+    - E, Repeat the fit after scaling each input column to 0 mean and 1 variance. 
+    Have the coefficients changed? Have the predictions changed?
+----
+3. Repeat the fit with scikit-learn on the unnormalized dataset.
+    - A, Compare the coefficients with the ones you got from statsmodels. 
+    Are they the same? If not try to answer why?
+    - B, Try to tweak the parameters of the scikit-learn method to reproduce the
+    the coefficients produced by statsmodels.
+    - C, Plot the ROC curve for the full dataset, and calculate the AUC.
+    - D, Repeat the fit after scaling each input column to 0 mean and 1 variance. 
+    Have the coefficients changed? Have the predictions changed?
+----    
+4. Split the dataset into 5 folds and predict each fold by training on the other 4.
+    - A, Make sure to fix the seed of the splitting to 0 to make it reproducible.
+    - B, Plot the ROC for the 5 folds separately as curves on the same plot.
+    - C, Calculate the AUC values for the 5 folds separately.
