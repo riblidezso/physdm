@@ -10,7 +10,7 @@
 
 - [03 Linear regression ](http://dkrib.web.elte.hu/datamining/slides/03_linreg.pdf)
 
-- [04 Linear methods for classification ]()
+- [04 Linear methods for classification ](http://patbaa.web.elte.hu/datamining/slides/04_lincls.pdf)
 
 - [05 Model selection and regularization ]()
 
@@ -32,9 +32,9 @@
 
 - [03 Linear regression ](lab/03_linreg.md)
 
-- [04 Linear methods in classification]()
+- [04 Linear methods in classification](lab/04_lincls.md)
 
-- [05 Model selection and regularization](), [data file]()
+- [05 Model selection and regularization]()
 
 - [06 SVM ]()
 
@@ -44,7 +44,7 @@
 
 - [09 Convolutional neural networks]()
 
-- [10 Natural language processing](lab/10_nlp.md)
+- [10 Natural language processing]()
 
 ---
 
