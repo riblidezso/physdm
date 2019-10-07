@@ -65,6 +65,7 @@
 
 - [01 Unsupervised learning and clustering ](https://nbviewer.jupyter.org/github/riblidezso/physdm/blob/master/examples/01_unsup_cluster/01_unsup_cluster_2018_example_solution.ipynb)
 - [02 Overview of supervised learning ](https://nbviewer.jupyter.org/github/riblidezso/physdm/blob/master/examples/02_sup/02_sup_photoz_2018_example_solution.ipynb)
+- [03 Linear Regression](https://nbviewer.jupyter.org/github/riblidezso/physdm/blob/master/examples/solution_lab_03_linreg.ipynb)
 
 ---
 
