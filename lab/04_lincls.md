@@ -2,7 +2,8 @@
 
 1. Load hurricane data from the article "Hurricane-induced selection on the morphology of an island lizard". (You may use ELTE wifi to access materials placed behind Nature's paywall.) https://www.nature.com/articles/s41586-018-0352-3
     - A, Drop the lizard with the most missing values
-    - B, Drop the ID column
+    - B, Drop the ID column, and the 'SumFingers','SumToes','MaxFingerForce' columns,
+    which were only measured after the hurricane
     - C, Encode, the Sex, Origin ans Hurricane values into binary columns,
     and drop the original text columns.
     - D, Make sure all your columns are encoded as floating point values, 
