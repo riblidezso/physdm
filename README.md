@@ -12,7 +12,7 @@
 
 - [04 Linear methods for classification ](http://patbaa.web.elte.hu/datamining/slides/04_lincls.pdf)
 
-- [05 Model selection and regularization ]()
+- [05 Model selection and regularization ](http://dkrib.web.elte.hu/datamining/slides/05_reg.pdf)
 
 - [06 SVM ]()
 
@@ -34,7 +34,7 @@
 
 - [04 Linear methods in classification](lab/04_lincls.md)
 
-- [05 Model selection and regularization]()
+- [05 Model selection and regularization](lab/05_reg.md)
 
 - [06 SVM ]()
 
