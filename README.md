@@ -34,7 +34,7 @@
 
 - [04 Linear methods in classification](lab/04_lincls.md)
 
-- [05 Model selection and regularization](lab/05_reg.md)
+- [05 Model selection and regularization](lab/05_subreg.md)
 
 - [06 SVM ]()
 
@@ -55,9 +55,7 @@
 ### Solution for this year  (quick and dirty, do not expect explanations)
 
 - [01 Unsupervised learning and clustering ](https://github.com/riblidezso/physdm/blob/master/examples/01_unsup_cluster/solution_assignment1.py)
-
 - [02 Overview of supervised learning ](https://nbviewer.jupyter.org/github/riblidezso/physdm/blob/master/examples/02_sup/solution_hw2.ipynb)
-
 - [03 Linear Regression](http://patbaa.web.elte.hu/datamining/lab03_solution.html)
 ---
 
