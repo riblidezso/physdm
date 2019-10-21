@@ -14,7 +14,7 @@
 
 - [05 Model selection and regularization ](http://dkrib.web.elte.hu/datamining/slides/05_reg.pdf)
 
-- [06 SVM ]()
+- [06 SVM ](http://patbaa.web.elte.hu/datamining/slides/06_svm.pdf)
 
 - [07 Decision trees ]()
 
@@ -36,7 +36,7 @@
 
 - [05 Model selection and regularization](lab/05_subreg.md)
 
-- [06 SVM ]()
+- [06 SVM ](lab/06_svm.md)
 
 - [07 Decision trees ]()
 
