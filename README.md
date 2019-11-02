@@ -16,7 +16,7 @@
 
 - [06 SVM ](http://patbaa.web.elte.hu/datamining/slides/06_svm.pdf)
 
-- [07 Decision trees ]()
+- [07 Decision trees ](http://dkrib.web.elte.hu/datamining/slides/07_dectree.pdf)
 
 - [08 Neural networks ]()
 
