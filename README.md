@@ -18,7 +18,7 @@
 
 - [07 Decision trees ](http://dkrib.web.elte.hu/datamining/slides/07_dectree.pdf)
 
-- [08 Neural networks ]()
+- [08 Neural networks ](http://dkrib.web.elte.hu/datamining/slides/08_neural.pdf)
 
 - [09 Convolutional neural networks]()
 
