@@ -1,45 +1,58 @@
-# 09 CNN lab exersices
+# Lab exercise 09, CNN
+---
+**Use Keras for the CNN and the neural network implementations, trainings.   
+If you need, you may use Kaggle or Google Colab for free GPU usage.   
+Kooplex has no GPU, only CPU.**
 
-Use Keras for the CNN!
+---
 
 
-If you need, you can use K80 GPUs for free via Google Colab
 
-1. Download the cifar100 dataset via the keras API
-- how many classes do we have in the dataset? how many train and test examples do we have?
-- what is the dimension of the images?
-- show 5 images from the dataset!
-- make one-hot encoding for the labels
+1, Loading data
+* A, Download the CIFAR10 dataset via the Keras API.
+* B, How many training and test images do we have?
+* C, What are the dimensions of the images? (N x M pixel)
+* D, Plot 2 images from each class!
 
-2. creating CNN architecutre
-- create a convolutional neural network
-- the network should have the following layers:
-  - input (32, 32, 3)
-  - conv2D, 16 kernels, kernel size = 3, valid padding, relu actvation
-  - conv2D, 16 kernels, kernel size = 3, valid padding, relu actvation
-  - maxpooling kernel size = 2*2
-  - conv2D, 32 kernels, kernel size = 3, valid padding, relu actvation
-  - conv2D, 32 kernels, kernel size = 3, valid padding, relu actvation
-  - maxpooling kernel size = 2*2
-  - flatten
-  - dense, 100 neurons, softmax activation
- - how many parameters do we have for each layer?
- 
-3. training the CNN
-- use Adam optimizer with default parameters
-- use categorical crossentropy as loss function
-- compile the model
-- - print out a summary of the model
-- train the CNN on the training data for 5 epochs with batch size of 32
-- use the test data as validation data
+2, Model fitting I.
+* A, Create a fully connected neural network via Keras
+    - network should have the following layers:
+     - Flatten with input of (32, 32, 3)
+     - Dense, 128 neurons, ReLu activation
+     - Dense, 128 neurons, ReLu activation
+     - Dense, 10 neurons, softmax activation
+* B, Fit the neural network for the training data.
+    - use Adam optimizer with its default settings
+    - use batch size of 64
+    - use accuracy as a metric
+    - use categorical_crossentropy loss
+    - print the metric after each epoch for both the train and the test set!
+    - norm the images to have the pixel values between 0-1 (instead of 0-255)
+    - convert the labels to one-hot-encoded variables (see to_categorical)
+    - train the neural network for 5 epochs
 
-4. Evaluate performance
-- plot the training and the validation loss on the same plot!
-- plot the training and the validation accuracy on the same plot!
-- do we overfit?
 
-5. Train an other CNN
-- as we can see the previous archutecture is not the best...
-- come up with an architecture that can achieve more than 50% accuracy on the test set.
-- print out the summary for this model!
-- plot the loss and accuracy curves for this model too!
+3, Model fitting II.
+* A, Create a convolutional neural network via Keras
+    - network should have the following layers:
+     - input of (32, 32, 3)
+     - conv2D, 16 kernels, kernel size = 3, valid padding, ReLu actvation
+     - conv2D, 16 kernels, kernel size = 3, valid padding, ReLu actvation
+     - maxpooling kernel size = 2*2
+     - conv2D, 32 kernels, kernel size = 3, valid padding, ReLu actvation
+     - conv2D, 32 kernels, kernel size = 3, valid padding, ReLu actvation
+     - maxpooling kernel size = 2*2
+     - flatten
+     - Dense, 10 neurons, softmax activation
+* B, Fit the neural network with the same options as in exercise 2.
+
+4, Improving CNN
+* A, Try to fit an other convolutional neural network tha can achieve 70% accuracy on the test set.
+  - You have to come up with the architecture
+  - Fit the neural network with the same options as in exercise 2. (so you can fit it only for 5 epochs!)
+
+
+
+### You may find a few examples here: https://patbaa.github.io/physdl/ or at many other places on the web.
+
+---
