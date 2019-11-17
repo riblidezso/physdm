@@ -20,9 +20,11 @@
 
 - [08 Neural networks ](http://dkrib.web.elte.hu/datamining/slides/08_neural.pdf)
 
-- [09 Convolutional neural networks]()
+- [09 Convolutional neural networks](http://patbaa.web.elte.hu/datamining/slides/09_cnn.pdf)
 
-- [10 Natural language processing]()
+- [10 Neural networks II.]()
+
+- [11 Natural language processing]()
 
 ### Lab assignments 
 
@@ -42,9 +44,11 @@
 
 - [08 Neural networks ]()
 
-- [09 Convolutional neural networks]()
+- [09 Convolutional neural networks](lab/09_cnn.md)
 
-- [10 Natural language processing]()
+- [10 Neural networks II.]()
+
+- [11 Natural language processing]()
 
 ---
 
