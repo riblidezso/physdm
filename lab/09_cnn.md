@@ -53,6 +53,4 @@ Kooplex has no GPU, only CPU.**
 
 
 
-### You may find a few examples here: https://patbaa.github.io/physdl/ or at many other places on the web.
-
 ---
