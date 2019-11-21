@@ -72,5 +72,3 @@
 
 ---
 
-
-Enrolled students can get free access to [DataCamp](https://www.datacamp.com/home) classes.
