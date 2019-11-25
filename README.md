@@ -48,7 +48,7 @@
 
 - [09 Convolutional neural networks](lab/09_cnn.md)
 
-- [10 Neural networks II.]()
+- [10 Neural networks II.](lab/10_hw.md)
 
 - [11 Generative adversarial networks]()
 
