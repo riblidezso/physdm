@@ -22,9 +22,11 @@
 
 - [09 Convolutional neural networks](http://patbaa.web.elte.hu/datamining/slides/09_cnn.pdf)
 
-- [10 Neural networks II.]()
+- [10 Neural networks II.](http://patbaa.web.elte.hu/datamining/slides/10_nn2.pdf)
 
-- [11 Natural language processing]()
+- [11 Generative adversarial networks]()
+
+- [12 Natural language processing]()
 
 ### Lab assignments 
 
@@ -48,7 +50,7 @@
 
 - [10 Neural networks II.]()
 
-- [11 Natural language processing]()
+- [11 Generative adversarial networks]()
 
 ---
 
