@@ -24,7 +24,7 @@
 
 - [10 Neural networks II.](http://patbaa.web.elte.hu/datamining/slides/10_nn2.pdf)
 
-- [11 Generative adversarial networks]()
+- [11 Generative adversarial networks](http://dkrib.web.elte.hu/datamining/slides/11_gan.pdf)
 
 - [12 Natural language processing]()
 
