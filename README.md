@@ -26,7 +26,7 @@
 
 - [11 Generative adversarial networks](http://dkrib.web.elte.hu/datamining/slides/11_gan.pdf)
 
-- [12 Natural language processing]()
+- [12 Natural language processing](http://patbaa.web.elte.hu/datamining/slides/12_NLP.pdf),[nb1](http://patbaa.web.elte.hu/datamining/slides/train_word2vec_on_wikipedia_corpus.html),[nb2](http://patbaa.web.elte.hu/datamining/slides/word2vec_application.html)
 
 ### Lab assignments 
 
